@@ -75,11 +75,11 @@ a:hover {
   }
 
   .section-heading.text-ivory h2 {
-    @apply text-ivory;
+    color: #f7f4ee;
   }
 
   .section-heading.text-ivory p {
-    @apply text-ivory/70;
+    color: rgba(247, 244, 238, 0.7);
   }
 
   .section-title {
