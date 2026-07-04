@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import { motion } from 'framer-motion';
 import { siteAssets } from './siteAssets';
 
 const stats = [
@@ -188,7 +187,7 @@ function Hero() {
   return (
     <section id="top" className="hero-section">
       <div className="site-container grid items-center gap-12 py-20 lg:grid-cols-[0.95fr_1.05fr] lg:py-28">
-        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
+        <div>
           <SectionLabel>OEM / ODM SOAP & PERSONAL CARE MANUFACTURER</SectionLabel>
           <h1 className="mt-6 max-w-5xl text-5xl font-semibold leading-[1.02] text-forest md:text-7xl">
             Reliable Soap Manufacturing for Global Brands.
@@ -208,13 +207,13 @@ function Hero() {
               </div>
             ))}
           </div>
-        </motion.div>
-        <motion.div className="hero-visual-wrap" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.1 }}>
+        </div>
+        <div className="hero-visual-wrap">
           <AssetSlot label="Hero soap product family + factory background" src={siteAssets.hero} variant="product" tall />
           <div className="floating-card top-8 left-6">OEM / ODM</div>
           <div className="floating-card bottom-12 left-10">Fast Sampling</div>
           <div className="floating-card right-8 top-1/2">Global Export</div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
