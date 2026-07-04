@@ -59,7 +59,7 @@ a:hover {
   }
 
   .section-label {
-    @apply inline-flex rounded-full border border-forest/15 bg-white/65 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.28em] text-moss shadow-sm backdrop-blur;
+    @apply inline-flex rounded-full border border-forest/20 bg-white/70 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.28em] text-moss shadow-sm backdrop-blur;
   }
 
   .section-heading {
@@ -71,7 +71,7 @@ a:hover {
   }
 
   .section-heading p {
-    @apply mt-5 text-lg leading-8 text-ink/65;
+    @apply mt-5 text-lg leading-8 text-ink/60;
   }
 
   .section-heading.text-ivory h2 {
@@ -79,7 +79,7 @@ a:hover {
   }
 
   .section-heading.text-ivory p {
-    @apply text-ivory/68;
+    @apply text-ivory/70;
   }
 
   .section-title {
@@ -87,7 +87,7 @@ a:hover {
   }
 
   .section-copy {
-    @apply mt-6 max-w-2xl text-lg leading-8 text-ink/68;
+    @apply mt-6 max-w-2xl text-lg leading-8 text-ink/70;
   }
 
   .split-heading {
@@ -119,7 +119,7 @@ a:hover {
   }
 
   .stat-card span {
-    @apply mt-2 block text-xs uppercase tracking-[0.18em] text-ink/55;
+    @apply mt-2 block text-xs uppercase tracking-[0.18em] text-ink/60;
   }
 
   .hero-visual-wrap {
@@ -177,7 +177,7 @@ a:hover {
   }
 
   .asset-frame {
-    @apply relative z-10 grid place-items-center rounded-[1.15rem] border border-white/35 bg-white/20 p-5 text-center backdrop-blur-sm;
+    @apply relative z-10 grid place-items-center rounded-[1.15rem] border border-white/40 bg-white/20 p-5 text-center backdrop-blur-sm;
   }
 
   .asset-slot:not(.asset-product) .asset-frame,
@@ -188,7 +188,7 @@ a:hover {
   }
 
   .asset-cert .asset-frame {
-    @apply border-forest/15 bg-white/70 text-forest;
+    @apply border-forest/20 bg-white/70 text-forest;
   }
 
   .asset-frame span {
@@ -212,7 +212,7 @@ a:hover {
   }
 
   .category-card p {
-    @apply mt-3 min-h-[90px] text-sm leading-6 text-ink/62;
+    @apply mt-3 min-h-[90px] text-sm leading-6 text-ink/60;
   }
 
   .tag-row {
@@ -264,7 +264,7 @@ a:hover {
   }
 
   .timing-panel span {
-    @apply mt-2 block text-sm uppercase tracking-[0.16em] text-ink/55;
+    @apply mt-2 block text-sm uppercase tracking-[0.16em] text-ink/60;
   }
 
   .dark-stat {
@@ -276,7 +276,7 @@ a:hover {
   }
 
   .dark-stat span {
-    @apply mt-3 block text-xs uppercase tracking-[0.18em] text-ivory/55;
+    @apply mt-3 block text-xs uppercase tracking-[0.18em] text-ivory/60;
   }
 
   .line-dark {
@@ -284,7 +284,7 @@ a:hover {
   }
 
   .line-dark span {
-    @apply block text-xs uppercase tracking-[0.2em] text-ivory/55;
+    @apply block text-xs uppercase tracking-[0.2em] text-ivory/60;
   }
 
   .line-dark strong {
@@ -316,7 +316,7 @@ a:hover {
   }
 
   .equipment-card span {
-    @apply mt-2 block text-sm leading-6 text-ink/62;
+    @apply mt-2 block text-sm leading-6 text-ink/60;
   }
 
   .quality-grid {
@@ -444,7 +444,7 @@ a:hover {
   }
 
   .footer-grid p {
-    @apply mt-4 max-w-sm leading-7 text-ivory/58;
+    @apply mt-4 max-w-sm leading-7 text-ivory/60;
   }
 
   .footer-grid h3 {
@@ -456,7 +456,7 @@ a:hover {
   }
 
   .copyright {
-    @apply border-t border-white/10 py-6 text-center text-sm text-ivory/45;
+    @apply border-t border-white/10 py-6 text-center text-sm text-ivory/50;
   }
 }
 
