@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+exports/
+*.zip
+
+source-assets/raw/
+source-assets/reference/
