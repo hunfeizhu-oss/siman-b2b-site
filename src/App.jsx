@@ -25,7 +25,7 @@ import {
   X,
 } from "lucide-react";
 
-const ASSET = "/assets/site/";
+const ASSET = `${import.meta.env.BASE_URL}assets/site/`;
 
 gsap.registerPlugin(ScrollTrigger);
 
