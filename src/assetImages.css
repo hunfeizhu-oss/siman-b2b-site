@@ -1,0 +1,47 @@
+.asset-has-image {
+  padding: 0;
+  background: #fff;
+}
+
+.asset-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  min-height: inherit;
+  object-fit: cover;
+}
+
+.asset-product.asset-has-image .asset-img {
+  object-position: center;
+}
+
+.asset-factory.asset-has-image .asset-img,
+.asset-equipment.asset-has-image .asset-img,
+.asset-export.asset-has-image .asset-img {
+  object-position: center;
+}
+
+.asset-cert.asset-has-image {
+  background: #fff;
+  padding: 1rem;
+}
+
+.asset-cert.asset-has-image .asset-img {
+  border-radius: 1rem;
+  object-fit: contain;
+  background: #fff;
+}
+
+.featured-card .asset-has-image,
+.blog-card .asset-has-image {
+  min-height: 130px;
+}
+
+.category-card .asset-has-image {
+  min-height: 180px;
+}
+
+.hero-visual-wrap .asset-has-image {
+  min-height: 480px;
+}
