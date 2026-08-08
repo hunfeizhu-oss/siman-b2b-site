@@ -1,4 +1,4 @@
-name: Deploy SIMAN B2B Site
+name: Deploy Sibuen B2B Site
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-siman-b2b-site
+  group: pages-sibuen-b2b-site
   cancel-in-progress: true
 
 jobs:

@@ -1,4 +1,4 @@
-# SIMAN B2B Site Deployment Guide
+# Sibuen B2B Site Deployment Guide
 
 ## Local preview
 
