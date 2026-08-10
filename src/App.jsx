@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
 const BASE = import.meta.env.BASE_URL;
 const ASSETS = {
   logo: `${BASE}assets/sibuen/logo.png`,
-  hero: `${BASE}assets/sibuen/factory-hero.jpg`,
+  hero: `${BASE}assets/sibuen/factory-hero-front.jpg`,
   detail: `${BASE}assets/sibuen/factory-detail.jpg`,
   floor: `${BASE}assets/sibuen/factory-floor.jpg`,
   team: `${BASE}assets/sibuen/factory-team.jpg`,
