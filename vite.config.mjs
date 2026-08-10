@@ -2,7 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: process.env.GITHUB_PAGES === "true" ? "/siman-b2b-site/" : "/",
+  // The production site uses the custom domain as its root.
+  base: process.env.SITE_BASE || "/",
   optimizeDeps: {
     include: ["react", "react-dom/client"],
   },

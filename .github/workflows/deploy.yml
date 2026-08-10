@@ -40,6 +40,7 @@ jobs:
         run: pnpm run build
         env:
           GITHUB_PAGES: 'true'
+          SITE_BASE: /
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3

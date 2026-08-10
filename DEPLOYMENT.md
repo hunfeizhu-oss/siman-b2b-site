@@ -56,8 +56,21 @@ This repository includes a GitHub Actions workflow at:
 If GitHub Pages is enabled with `GitHub Actions` as the source, the site should deploy to:
 
 ```text
-https://hunfeizhu-oss.github.io/siman-b2b-site/
+https://sibuentoy.cn/
 ```
+
+### Tencent Cloud DNS for `sibuentoy.cn`
+
+The site files remain hosted by GitHub Pages; Tencent Cloud provides the domain DNS.
+Add these records in the Tencent Cloud DNS console:
+
+| Type | Host | Value |
+|---|---|---|
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `hunfeizhu-oss.github.io` |
 
 ## Before going live
 
