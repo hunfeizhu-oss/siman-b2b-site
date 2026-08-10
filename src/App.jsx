@@ -383,7 +383,7 @@ function Hero({ t }) {
         </div>
         <figure className="hero-media js-reveal">
           <picture>
-            <source media="(max-width: 640px)" srcSet={ASSETS.productMontessori} />
+            <source media="(max-width: 640px)" srcSet={ASSETS.hero} />
             <img className="hero-image" src={ASSETS.hero} alt="Sibuen wooden toy manufacturing and product collection" />
           </picture>
           <figcaption className="hero-tag">
